@@ -2,13 +2,29 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Angular</title>
+  <title>Angular2</title>
   <base href="/angular/">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-<link href="styles.d41d8cd98f00b204e980.bundle.css" rel="stylesheet"/></head>
+  <link href="./assets/styles.css" rel="stylesheet" type="text/css">
+<link href="styles.546218a57ec0af943f44.bundle.css" rel="stylesheet"/></head>
 <body>
   <app-root>Loading...</app-root>
-<script type="text/javascript" src="inline.c142b12630924ced63b1.bundle.js"></script><script type="text/javascript" src="polyfills.58186600797e726c2ab8.bundle.js"></script><script type="text/javascript" src="main.317ad787834656bd6f71.bundle.js"></script></body>
+
+
+
+  <script src="https://www.gstatic.com/firebasejs/3.6.8/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyBnAMfzrq1OFcQZMG3ZYc_URWdrffOm2NA",
+      authDomain: "nn-angular-b52a7.firebaseapp.com",
+      databaseURL: "https://nn-angular-b52a7.firebaseio.com",
+      storageBucket: "nn-angular-b52a7.appspot.com",
+      messagingSenderId: "297001715207"
+    };
+    firebase.initializeApp(config);
+  </script>
+<script type="text/javascript" src="inline.2a363a149594b9b5eecd.bundle.js"></script><script type="text/javascript" src="polyfills.05155c0c560380b9207f.bundle.js"></script><script type="text/javascript" src="main.338bb2c5cea487948091.bundle.js"></script></body>
 </html>
